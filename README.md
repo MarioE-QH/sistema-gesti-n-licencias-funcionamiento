@@ -18,7 +18,7 @@ Se implementó el desarrollo de un sistema de gestión de licencias de funcionam
 <img width="1920" height="1056" alt="screencapture-127-0-0-1-8000-main-2025-12-14-11_37_55" src="https://github.com/user-attachments/assets/49023269-e976-4401-8248-f15fe563acb3" />
 
 # Vista defensa civil:
-<img width="1920" height="2762" alt="screencapture-127-0-0-1-8000-main-2025-12-14-11_36_32" src="https://github.com/user-attachments/assets/66420b5e-42f7-4496-b43d-27bfad4dc857" />
+<img width="1920" height="2775" alt="screencapture-127-0-0-1-8000-defensa-civil-2025-12-14-11_41_41" src="https://github.com/user-attachments/assets/1656d302-794b-4046-ae97-2d37438cc550" />
 
 # Vista administración:
 <img width="1920" height="1927" alt="screencapture-127-0-0-1-8000-admin-2025-12-14-11_38_12" src="https://github.com/user-attachments/assets/515681c6-11fc-40fc-92c3-0839f6e3e774" />
