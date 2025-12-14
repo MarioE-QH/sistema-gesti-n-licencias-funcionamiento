@@ -132,7 +132,7 @@
 
   <footer class="footer">
     <div class="footer-content">
-      <p>© Gestión de Licencias de Funcionamiento de la Municipalidad Distrital de Pacasmayo - 2025</p>
+      <p>© Gestión de Licencias de Funcionamiento de la Municipalidad Distrital- 2025</p>
       <p>
       <p> Desarrollado por <strong>MEQH</strong> - Todos los derechos conservados </p>
     </div>
@@ -178,8 +178,7 @@
     }
   </style>
 
-
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="{{ asset('js/eliminar.js') }}"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

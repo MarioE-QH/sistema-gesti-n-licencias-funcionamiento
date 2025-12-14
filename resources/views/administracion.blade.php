@@ -532,13 +532,21 @@
     </script>
 
 
+@if(session('success') || session('error'))
+    <div id="flash-data"
+         data-success="{{ session('success') }}"
+         data-error="{{ session('error') }}">
+    </div>
+@endif
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-       <script src="{{ asset('js/eliminar.js') }}"></script>
-    <script>
+
+<script>
 document.addEventListener("DOMContentLoaded", function () {
 
     const flash = document.getElementById('flash-data');
+    if (!flash) return; 
+
     const errorMessage = flash.dataset.error;
     const successMessage = flash.dataset.success;
 
@@ -551,7 +559,7 @@ document.addEventListener("DOMContentLoaded", function () {
             confirmButtonText: 'Entendido',
             didClose: () => {
                 const modalEl = document.getElementById('modalNuevo');
-                if (modalEl) {
+                if (modalEl && typeof bootstrap !== 'undefined') {
                     bootstrap.Modal.getOrCreateInstance(modalEl).show();
                 }
             }
@@ -570,6 +578,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 </script>
+
 
  
     @endsection
