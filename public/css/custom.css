@@ -1,0 +1,361 @@
+/*//MEQH Contac-912595922*/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; 
+}
+
+
+.border-left-primary {
+    border-left: 6px solid #0d6efd;
+}
+.border-left-success {
+    border-left: 6px solid #198754;
+}
+.border-left-danger {
+    border-left: 6px solid #dc3545;
+}
+.border-left-warning {
+    border-left: 6px solid #ffc107;
+}
+.border-left-purple {
+    border-left: 6px solid purple;
+}
+.border-left-info {
+    border-left: 6px solid #0dcaf0;
+}
+
+.text-purple {
+    color: purple;
+}
+
+.bg-purple {
+    background-color: #800080; 
+}
+.bg-orange {
+    background-color: #d76436; 
+}
+.bg-orange-boton {
+    background-color: #d76436; 
+}
+
+.body-login {
+    background: linear-gradient(135deg, #13191b, #4dbde0);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.logo-login {
+    height: 70px;
+}
+
+
+.login-container {
+    width: 400px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+    padding: 30px 25px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-icon {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    color: #0077b6;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+
+.btn-login {
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+    background-color: #0077b6;
+    border: none;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.btn-login:hover {
+    background-color: #005f87;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.login-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;  
+    letter-spacing: 0.5px; 
+    color: #fff;
+}
+
+.login-subtitle {
+    color: #fff;
+    opacity: 0.9; 
+}
+
+
+
+.header-compact { 
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+}
+
+
+.fa-sm { 
+  font-size: 0.85em;
+}
+
+
+.btn-sm {
+  padding: .35rem .6rem;
+  font-size: .85rem;
+}
+
+
+.shadow-sm {
+  box-shadow: 0 1px 6px rgba(20,20,20,0.04) !important;
+}
+
+#miTabla thead th {
+    font-size: 0.8rem;
+    color: #6c757d; 
+    font-weight: 600;
+    white-space: nowrap; 
+  }
+
+  #miTabla tbody td {
+    font-size: 0.78rem;
+    white-space: nowrap; 
+  }
+
+  #dataControl thead th {
+    font-size: 0.8rem;
+    color: #eff3f6; 
+    font-weight: 600;
+    white-space: nowrap; 
+  }
+
+  #dataControl tbody td {
+    font-size: 0.78rem;
+    white-space: nowrap; 
+  }
+
+ .tbSinDocth thead th {
+    font-size: 0.8rem;
+    color: #101214; 
+    font-weight: 600;
+    white-space: nowrap; 
+  }
+
+  .tbSinDoctd tbody td {
+    font-size: 0.78rem;
+    white-space: nowrap; 
+  }
+
+
+
+.custom-modal-width {
+  max-width: 900px;  
+  width: 90%;        
+}
+
+.modal-content {
+  border-radius: 12px;
+  border: none;
+}
+
+
+
+.body-defensa-civil {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f8f7; 
+    color: #d3b896; 
+    padding-bottom: 40px;
+}
+
+
+.body-defensa-civil .defensa-civil-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.body-defensa-civil .defensa-civil-header {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(90deg, #e29e71, #f45d26);
+    padding: 12px 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.body-defensa-civil table thead th {
+    background-color: #d76436;
+    color: #1b213a;
+    font-weight: 500;
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.body-defensa-civil table tbody td {
+    font-size: 0.82rem;
+    padding: 8px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border-radius: 6px;
+    border: 1px solid #2a3642;
+    padding: 4px 8px;
+    font-size: 0.85rem;
+}
+
+
+.body-defensa-civil .defensa-civil-btn-pdf,
+.body-defensa-civil .defensa-civil-btn-edit {
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 0.85rem;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+
+.body-defensa-civil .defensa-civil-btn-pdf {
+    border-color: #e74c3c;
+    color: #e74c3c;
+}
+
+.body-defensa-civil .defensa-civil-btn-pdf:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+
+.body-defensa-civil .defensa-civil-btn-edit {
+    border-color: #f1c40f;
+    color: #f1c40f;
+}
+
+.body-defensa-civil .defensa-civil-btn-edit:hover {
+    background-color: #f1c40f;
+    color: #4b6195;
+}
+
+
+.body-defensa-civil .table-responsive {
+    margin-top: 15px;
+}
+
+.body-defensa-civil .dataTables_length {
+    margin-bottom: 10px;
+}
+
+.body-defensa-civil .dataTables_paginate {
+    margin-top: 10px;
+}
+
+
+.body-defensa-civil .btn-sm {
+    padding: 3px 6px;
+    font-size: 0.8rem;
+}
+
+
+
+#overlayCarga {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94, 89, 89, 0.6); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1055;
+  border-radius: 0.5rem;
+}
+
+
+#overlayCarga .contenido {
+  text-align: center;
+  color: white;
+}
+
+#overlayCarga .spinner-border {
+  width: 4rem;
+  height: 4rem;
+}
+
+#modalSinDocumentos table {
+    font-size: 0.85rem;
+  }
+
+  #modalSinDocumentos th {
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+
+  #modalSinDocumentos td {
+    vertical-align: middle;
+  }
+
+  #modalSinDocumentos tbody tr:hover {
+  background-color: #f5f9fc;
+}
+
+.pagination {
+    font-size: 0.75rem;
+    gap: 0.25rem;
+}
+
+.pagination .page-link {
+    padding: 0.3rem 0.55rem;
+    line-height: 1.2;
+}
