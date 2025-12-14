@@ -1,61 +1,31 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Sistema de Gestión de Licencias de Funcionamiento
+(Cabe señalar que la información mostrada son datos simulados para mostrar la lógica de la información real)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Se implementó el desarrollo de un sistema de gestión de licencias de funcionamiento, que centralice la información, permitiendo su acceso en tiempo real, de esta manera que los fiscalizadores podrán verificar de forma inmediata el estado de cada local, optimizando el control, la fiscalización y la transparencia de los procesos municipales. Todo inicia desde la creación de la licencia de funcionamiento en la parte de administración; esta se recepciona en el área de defensa civil para luego proceder a adjuntar documentos de Certificación y Resolución en cada licencia correspondiente (estos documentos vencen cada 2 años por lo tanto se debe renovar dichos documentos), además el área de defensa civil gestiona información de estos documentos (fechas de recepción, salidas, etc.), por ultimo toda esta información se ve reflejada en la parte de inicio donde los fiscalizadores pueden ver que las licencias están activas, inactivas, las que están por vencer (tiene que renovar cada documentos 2 años), las que ya vencieron, las licencias que aún no tiene documentos (se muestra en la parte superior derecha, dar clic para ver) y pueden ver cada local con sus respectivos documentos adjuntos. Por otro lado se agrega un apartado para buscar las direcciones con google maps, facilitando a los fiscalizadores ir al establecimiento.
 
-## About Laravel
+# Requisitos para implementar el sistema:
+- XAMPP + MySQL
+- Compositor
+- vsCode
+- Instalar LibreOffice (para convertir una plantilla de Word a PDF)
+- Laravel 12 / php 8.2
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# Vista login:
+<img width="1920" height="912" alt="screencapture-127-0-0-1-8000-2025-12-14-11_39_22" src="https://github.com/user-attachments/assets/3516063e-1f32-4ef0-acfc-1a68919bea0f" />
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# Vista inicio:
+<img width="1920" height="2762" alt="screencapture-127-0-0-1-8000-main-2025-12-14-11_36_32" src="https://github.com/user-attachments/assets/6576fd27-4f0d-4491-894a-7303a36947af" />
+<img width="1920" height="1056" alt="screencapture-127-0-0-1-8000-main-2025-12-14-11_37_55" src="https://github.com/user-attachments/assets/49023269-e976-4401-8248-f15fe563acb3" />
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# Vista defensa civil:
+<img width="1920" height="2762" alt="screencapture-127-0-0-1-8000-main-2025-12-14-11_36_32" src="https://github.com/user-attachments/assets/66420b5e-42f7-4496-b43d-27bfad4dc857" />
 
-## Learning Laravel
+# Vista administración:
+<img width="1920" height="1927" alt="screencapture-127-0-0-1-8000-admin-2025-12-14-11_38_12" src="https://github.com/user-attachments/assets/515681c6-11fc-40fc-92c3-0839f6e3e774" />
+<img width="1920" height="1204" alt="screencapture-127-0-0-1-8000-admin-2025-12-14-11_38_42" src="https://github.com/user-attachments/assets/db2a2e76-bd94-4a6e-9477-8d66c5ec4137" />
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+# Vista mantenedores:
+<img width="1920" height="1033" alt="screencapture-127-0-0-1-8000-mantenedores-2025-12-14-11_39_03" src="https://github.com/user-attachments/assets/b315ad4a-3aa2-4b7b-9a62-3210cf6517b7" />
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
